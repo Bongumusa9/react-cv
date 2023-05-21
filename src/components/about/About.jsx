@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/profile.jpeg";
+import AboutImg from "../../assets/m.jpg";
 // import CV from '../../assets/'
 import Info from "./Info";
 
@@ -24,7 +24,7 @@ const About = () => {
           <a href="/" className="button button-flex">
             Download CV
             <svg
-              class="button__icon"
+              className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"

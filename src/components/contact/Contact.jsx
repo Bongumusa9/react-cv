@@ -4,7 +4,7 @@ import "./contact.css";
 const Contact = () => {
   return (
     <section className="contact section" id="contact">
-      <h3 className="section__title">Get in Touch</h3>
+      <h2 className="section__title">Get in Touch</h2>
       <span className="section__subtitle">Contact Me</span>
 
       <div className="contact__container container grid">
@@ -95,7 +95,7 @@ const Contact = () => {
             <button className="button button--flex">
               Send Message
               <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
