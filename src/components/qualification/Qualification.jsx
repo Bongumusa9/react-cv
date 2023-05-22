@@ -75,7 +75,7 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Business Anaylst</h3>
+                <h3 className="qualification__title">Business Analysis NQF Level 6</h3>
                 <span className="qualification__subtitle">
                   Johannesburg - SpecCon Holdings (Pty) Ltd
                 </span>
