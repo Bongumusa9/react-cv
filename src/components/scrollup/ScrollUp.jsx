@@ -1,12 +1,18 @@
-import React from 'react'
-import './scrollup.css'
+import React from "react";
+import "./scrollup.css";
 
 const ScrollUp = () => {
-  return (
-   <a href="/" className="scrollup">
-    <i className="uil uil-arrow-up scrollup__icon"></i>
-   </a>
-  )
-}
+  // window.addEventListener("scroll", function () {
+  //   const scrollUp = document.querySelector(".scrollUp");
 
-export default ScrollUp
+  //   if (this.screenY >= 560) scrollUp.classList.add("show-scroll");
+  //   else scrollUp.classList.remove("show-scroll");
+  // });
+  return (
+    <a href="/" className="scrollup">
+      <i className="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+  );
+};
+
+export default ScrollUp;
