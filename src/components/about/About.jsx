@@ -16,9 +16,20 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer, I created web pages with UI/UX user unterface, I
+            {/* Frontend developer, I created web pages with UI/UX user unterface, I
             have years of experience and many clients are happy with the
-            projects carried out.
+            projects carried out. */}
+            I am a Deaf man who used to communicate using sign language during
+            interviews that required a personal interpreter. I completed my
+            Diploma in Information Technology (Software Development) at Belgium
+            Campus iTversity for three years, plus one year of self-development
+            at Botlhale Village, which subsidized the Belgium Campus iTversity
+            for In-Service Training, and one year of the IOCO Software Developer
+            Graduate program. I am a flexible and friendly person who works well
+            in a team as well as on my own because I like to set goals for
+            myself that I will achieve. I also have good listening and fast
+            learn. I have a creative mind and am always eager to take on new
+            challenges.
           </p>
 
           <a href="/" className="button button-flex">
