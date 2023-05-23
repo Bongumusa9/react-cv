@@ -45,46 +45,46 @@
 }
 
 /* BREAK POINTS */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {  
   .about__container {
-    grid-template-columns: 1fr;
-    row-gap: 2.5rem;
+      grid-template-columns: 1fr;
+      row-gap: 2.5rem;
   }
 
   .about__img {
-    width: 220px;
+      width: 220px;
   }
 
   .about__box {
-    padding: 0.75rem 0.5rem;
+      padding: 0.75rem 0.5rem;
   }
 
   .about__data {
-    text-align: center;
+      text-align: center;
   }
 
   .about__info {
-    justify-content: center;
+      justify-content: center;
   }
 
   .about__description {
-    padding: 0 5rem;
-    margin-bottom: 2rem;
+      padding: 0 5rem;
+      margin-bottom: 2rem;
   }
 }
 
 @media screen and (max-width: 576px) {
   .about__info {
-    grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
   }
 
   .about__description {
-    padding: 0;
+      padding: 0;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .about__info {
-    grid-template-columns: repeat(2, 1fr);
-  }
+ .about__info {
+  grid-template-columns: repeat(2, 1fr);
+ }
 }
