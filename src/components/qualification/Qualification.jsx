@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./qualification.css";
+import { HiOutlineAcademicCap, HiOutlineBriefcase } from 'react-icons/hi'
 
 const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -22,9 +23,10 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(1)}
           >
-            <i className="uil uil-graduation-cap qualification__icon">
+            {/* <i className="uil uil-graduation-cap qualification__icon">
               Education
-            </i>
+            </i> */}
+            <HiOutlineAcademicCap className="qualification__icon"/> Education
           </div>
 
           <div
@@ -35,9 +37,10 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(2)}
           >
-            <i className="uil uil-briefcase-alt qualification__icon">
+            {/* <i className="uil uil-briefcase-alt qualification__icon">
               Experience
-            </i>
+            </i> */}
+            <HiOutlineBriefcase className="qualification__icon"/> Experience
           </div>
         </div>
 

@@ -1,5 +1,6 @@
 import React from "react";
 import "./scrollup.css";
+import { HiOutlineArrowSmUp } from 'react-icons/hi'
 
 const ScrollUp = () => {
   window.addEventListener("scroll", function () {
@@ -9,7 +10,8 @@ const ScrollUp = () => {
   });
   return (
     <a href="/" className="scrollup">
-      <i className="uil uil-arrow-up scrollup__icon"></i>
+      {/* <i className="uil uil-arrow-up scrollup__icon"></i> */}
+      <HiOutlineArrowSmUp className="scrollup__icon"/>
     </a>
   );
 };

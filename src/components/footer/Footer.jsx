@@ -1,11 +1,12 @@
 import React from "react";
 import "./footer.css";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Portfoilo</h1>
+        <h1 className="footer__title">Mlaba</h1>
 
         <ul className="footer__list">
           <li>
@@ -14,30 +15,32 @@ const Footer = () => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a href="/project" className="footer__link">
               Project
             </a>
-          </li>
+          </li> */}
 
-          <li>
+          {/* <li>
             <a href="/test" className="footer__link">
               Testimonal
             </a>
-          </li>
+          </li> */}
         </ul>
 
         <div className="footer__social">
-          <a href="/https://instagram.com/" className="footer__social-link">
-            <i className="bx bxl-instagram"></i>
+          <a href="https://github.com/" className="footer__social-link">
+            {/* <i className="bx bxl-instagram"></i> */}
+            <FiGithub />
           </a>
 
-          <a href="/https://facebook.com/" className="footer__social-link">
+          {/* <a href="/https://facebook.com/" className="footer__social-link">
             <i className="bx bxl-facebook"></i>
-          </a>
+          </a> */}
 
           <a href="/https://twitter.com/" className="footer__social-link">
-            <i className="bx bxl-twitter"></i>
+            {/* <i className="bx bxl-twitter"></i> */}
+            <FiLinkedin />
           </a>
         </div>
 

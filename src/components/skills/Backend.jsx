@@ -1,4 +1,5 @@
 import React from "react";
+import { HiCheckBadge } from "react-icons/hi2";
 
 const Backend = () => {
   return (
@@ -8,7 +9,8 @@ const Backend = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            {/* <i className="bx bx-badge-check"></i> */}
+            <HiCheckBadge />
             <div>
               <h3 className="skills__name">PHP</h3>
               <span className="skills__level">Intermediate</span>
@@ -16,7 +18,8 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            {/* <i className="bx bx-badge-check"></i> */}
+            <HiCheckBadge />
             <div>
               <h3 className="skills__name">Node.js</h3>
               <span className="skills__level">Basic</span>
@@ -24,7 +27,8 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            {/* <i className="bx bx-badge-check"></i> */}
+            <HiCheckBadge />
             <div>
               <h3 className="skills__name">Python</h3>
               <span className="skills__level">Intermediate</span>
@@ -34,7 +38,8 @@ const Backend = () => {
 
         <div className="skills__group">
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            {/* <i className="bx bx-badge-check"></i> */}
+            <HiCheckBadge />
             <div>
               <h3 className="skills__name">MySQL</h3>
               <span className="skills__level">Intermediate</span>
@@ -42,7 +47,8 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            {/* <i className="bx bx-badge-check"></i> */}
+            <HiCheckBadge />
             <div>
               <h3 className="skills__name">Firebase</h3>
               <span className="skills__level">Intermediate</span>
@@ -50,7 +56,8 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            {/* <i className="bx bx-badge-check"></i> */}
+            <HiCheckBadge />
             <div>
               <h3 className="skills__name">SQL</h3>
               <span className="skills__level">Intermediate</span>
