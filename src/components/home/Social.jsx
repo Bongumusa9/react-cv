@@ -1,5 +1,5 @@
 import React from "react";
-import {FiGithub, FiLinkedin} from 'react-icons/fi'
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 const Social = () => {
   return (
@@ -15,7 +15,7 @@ const Social = () => {
 
       <a href="https://www.linkedin.com/" className="home__social-icon">
         {/* <i className="uil uil-linkedin-alt"></i> */}
-        <FiLinkedin/>
+        <FiLinkedin />
       </a>
     </div>
   );

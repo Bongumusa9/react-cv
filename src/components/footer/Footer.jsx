@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { BsDiscord } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -34,6 +35,10 @@ const Footer = () => {
             <FiGithub />
           </a>
 
+          <a href="https://discord.com/login" className="footer__social-link">
+            {/* <i className="bx bxl-instagram"></i> */}
+            <BsDiscord />
+          </a>
           {/* <a href="/https://facebook.com/" className="footer__social-link">
             <i className="bx bxl-facebook"></i>
           </a> */}
