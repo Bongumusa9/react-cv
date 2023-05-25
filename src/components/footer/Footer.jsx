@@ -30,12 +30,12 @@ const Footer = () => {
         </ul>
 
         <div className="footer__social">
-          <a href="https://github.com/" className="footer__social-link">
-            {/* <i className="bx bxl-instagram"></i> */}
+          <a href="https://github.com/Bongumusa9" className="footer__social-link">
+            {/* <i className="bx bxl-github"></i> */}
             <FiGithub />
           </a>
 
-          <a href="https://discord.com/login" className="footer__social-link">
+          <a href="https://discord.com/channels/725296608308363476/936535801737654293/1111170312420216862" className="footer__social-link">
             {/* <i className="bx bxl-instagram"></i> */}
             <BsDiscord />
           </a>
@@ -43,8 +43,8 @@ const Footer = () => {
             <i className="bx bxl-facebook"></i>
           </a> */}
 
-          <a href="/https://twitter.com/" className="footer__social-link">
-            {/* <i className="bx bxl-twitter"></i> */}
+          <a href="/https://linkedin.com/" className="footer__social-link">
+            {/* <i className="bx bxl-linkdin"></i> */}
             <FiLinkedin />
           </a>
         </div>
