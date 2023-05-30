@@ -58,7 +58,11 @@ const Data = () => {
 
       <h3 className="home__subtitle">Web Development</h3>
       <p className="home__description">
-        wertyuijhgfcdfvghj fghjhgbvbnmjhgfhjh ghjhvbnbvbn ghjbvgbhgfvb
+        Solution-driven web developer very skilled at contributing to highly
+        involved work environment and finding solutions. Proven experience
+        developing focused websites using HTML, CSS, JavaScript, Reactjs,
+        node.js and mongoDB. Good knowledge of the best practices for web
+        design, user experience, and speed.
       </p>
 
       <a href="/contact" className="button button--flex">

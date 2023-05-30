@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/m.jpg";
-// import CV from '../../assets/'
+import CV from '../../assets/CV.pdf'
 import Info from "./Info";
 
 const About = () => {
@@ -16,9 +16,6 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            {/* Frontend developer, I created web pages with UI/UX user unterface, I
-            have years of experience and many clients are happy with the
-            projects carried out. */}
             I am a Deaf man who used to communicate using sign language during
             interviews that required a personal interpreter. I completed my
             Diploma in Information Technology (Software Development) at Belgium
@@ -32,7 +29,7 @@ const About = () => {
             challenges.
           </p>
 
-          <a href="/" className="button button-flex">
+          <a href={CV} className="button button-flex">
             Download CV
             <svg
               className="button__icon"
